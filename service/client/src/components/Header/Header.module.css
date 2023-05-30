@@ -1,0 +1,85 @@
+p {
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: rgb(87, 48, 245);
+}
+
+.pLogo {
+    cursor: pointer;
+    font-family: 'Expletus Sans';
+    font-weight: 600;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    font-size: 30px;
+    display: inline-block;
+    width: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0c1013;
+    margin-bottom: 40px;
+
+}
+
+.linksVh {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c1013;
+    align-items: center;
+    margin-bottom: 40px;
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, .91);
+}
+
+.lin {
+    display: flex;
+    gap: 20px;
+    margin: 10px 10px 10px 10px
+}
+
+.registerLink {
+    text-decoration: none;
+    color: black;
+
+}
+
+.iconInfoManHead {
+    width: 30px;
+    border-radius: 20px;
+    border: 1px solid #ffff
+}
+
+.createStat {
+    width: 30px;
+    height: 30px;
+    transition: 1s;
+}
+
+.createStat:hover {
+    transform: rotate(360deg);
+}
+
+.delAkk {
+    width: 30px;
+    transition: 1s;
+}
+
+.recover {
+    width: 30px;
+    transition: 1s;
+}
+
+.exit {
+    width: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.exit:hover {
+    width: 30px;
+    transform: rotate(360deg);
+}

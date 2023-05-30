@@ -1,0 +1,67 @@
+.header {
+    margin: 10px 10px 10px 10px
+}
+
+p {
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: rgb(87, 48, 245);
+}
+
+.pLogo {
+    cursor: pointer;
+    font-family: 'Expletus Sans';
+    font-weight: 600;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    font-size: 30px;
+    display: inline-block;
+    width: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.linksVh {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.lin {
+    display: flex;
+    gap: 20px;
+    margin: 10px 10px 10px 10px
+}
+
+.registerLink {
+    text-decoration: none;
+    color: black;
+
+}
+
+.delAkk {
+    width: 30px;
+    transition: 1s;
+}
+
+.recover {
+    width: 30px;
+    transition: 1s;
+}
+
+.exit {
+    width: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.exit:hover {
+    width: 30px;
+    transform: rotate(360deg);
+}

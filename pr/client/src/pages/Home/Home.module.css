@@ -1,0 +1,224 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    gap: 100px;
+}
+
+
+.infoAkk {
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+    max-width: 450px;
+    max-height: 500px;
+    min-height: 450px;
+    overflow-x: hidden;
+    background-color: #27292b;
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, .91);
+}
+
+.infoMan {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.infoMan>p {
+    color: rgb(97, 99, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nameMan {
+    word-wrap: break-word;
+    color: aliceblue;
+}
+
+.servsH {
+    color: aliceblue;
+
+}
+
+.iconInfoMan {
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+
+}
+
+.gitVkCont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Icgit {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.servicesContainer {
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    min-width: 50%;
+    max-width: 50%;
+    background-color: #27292b;
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, .91);
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service {
+    display: flex;
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #313336;
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, .91);
+    cursor: pointer;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.logoService {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.contdeysts {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    flex-wrap: wrap;
+}
+
+.deyst {
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+    background-color: #27292b;
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, .91);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.deyst>p:hover {
+    color: rgb(165, 166, 198);
+}
+
+.deyst:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+.button {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:before {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 540px) {
+    .servicesContainer {
+        min-width: 70%;
+        max-width: 70%;
+    }
+}

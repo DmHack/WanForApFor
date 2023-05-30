@@ -1,0 +1,121 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.mainH {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+.contForm {
+    margin: 100px 20px 20px 20px;
+    padding: 5px 80px 30px 80px;
+    border-radius: 15px;
+    background-color: #27292b;
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, .91);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.btnLog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+.registerLink {
+    text-decoration: none;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.inputPS {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(183, 183, 183);
+    font-size: 15px;
+}
+
+.contsForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.restPass {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.pVs {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.vostPs {
+    text-decoration: none;
+    color: rgb(136, 109, 255);
+    transition: 0.5s;
+}
+
+.vostPs:hover {
+    color: rgb(69, 28, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .contForm {
+        padding: 5px 40px 30px 40px;
+    }
+}
