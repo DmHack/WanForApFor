@@ -1,0 +1,9 @@
+NODE_ENV = production
+PORT = Number PORT (Example 5555)
+MONGO_URL_USER = URL MONGO DB (Example mongodb+srv://NAME:PASSWORD@cluster0......)
+JWT_SECRET_ACCESS = SECRET STRING (Example wfwfwfoqwgha;oweghp;eriojrtjhr;'jth)
+JWT_SECRET_ACCESS_REST_PASS = SECRET STRING (Example wfwfwfoqwgha;oweghp;eriojrtjhr;'jth)
+JWT_SECRET_REFRESH = SECRET STRING (Example wfwfwfoqwgha;oweghp;eriojrtjhr;'jth)
+CRYPTR = SECRET STRING (Example wfwfwfoqwgha;oweghp;eriojrtjhr;'jth)
+EMAIL_USER = EMAIL
+EMAIL_USER_PASSWORD = password email
